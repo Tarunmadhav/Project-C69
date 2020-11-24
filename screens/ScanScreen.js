@@ -1,4 +1,8 @@
-import {image, View} from 'react-native'
+import {image, View,touchableopacity,text,stylesheet} from 'react-native'
+import React from 'react';
+import * as Permissions from 'expo-permissions';
+import { BarCodeScanner } from 'expo-barcode-scanner';
+
 export default class ScanScreen extends React.Component{
     cunstructor(){
     super();
